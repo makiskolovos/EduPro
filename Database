@@ -1,0 +1,51 @@
+#Δημιουργία Βάσης 
+
+create database edu_pro;
+use edu_pro;
+
+#Δημιουργία πίνακα για τα στοιχεία των προπτυχιακών και των μεταπτυχιακών φοιτητών
+
+create table students(
+is_student enum ( 'under',  'post'),
+name varchar (20) default 'unknown' not null,
+lastname varchar (20) default 'unknown' not null,
+username varchar (20) default 'unknown' not null,
+password varchar(20) default  'unknown' not null,
+AM int(7) not null auto_increment,
+email varchar(20) default 'unknown' not null,
+primary key (AM)
+);
+
+#Εισαγωγή στοιχείων
+ insert into students VALUES(
+ 'under', 'Giorgos', 'Papadopoulos', 'un9034', 'Gpap99123',9034, 'un9034@uni.gr',
+ 'under', 'Sofia', 'Koutrouli', 'un9021', 'S1996.!03', 9021, 'un9021@uni.gr',
+ 'post', 'Marietta', 'Kwstaki', 'un1751', 'Mar1993.89',1751, 'un1751@uni.gr', 
+ 'post', 'Marios', 'Stergiou', 'un1766', '97Mst2110!',1766, 'un1766@uni.gr');
+
+#Δημιουργία πίνακα για τα στοιχεία των καθηγητών
+
+create table professors(
+name varchar(100) default 'unknown' not null,
+lastname varchar(100) default  'unknown' not null,
+username varchar(100) default  'unknown' not null,
+password varchar(100) default  'unknown' not null,
+email varchar(100) default  'unknown' not null,
+ primary key(email)
+);
+
+INSERT INTO professors 
+VALUES(
+'Kwnstantinos','Charalabidis','kwncha', 'KwnCha!','kwncha@uni.gr',
+'Panagiwta','Mavroudi','panmav','Pan13Mav12@','panmav@uni.gr',
+'Marios','Papadopoulos','mariopap', 'marioS#Pap','mariopap@uni.gr'
+);
+#Δημιουργία πίνακα για τα στοιχεία της διεύθυνσης
+
+create table admin(
+username varchar(20) default 'unknown' not null,
+password varchar(20) default 'unknown' not null
+);
+INSERT INTO admin VALUES(
+'university','2610765439uni');
+
