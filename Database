@@ -20,6 +20,7 @@ primary key (AM)
  insert into students VALUES(
  'under', 'Giorgos', 'Papadopoulos', 'un9034', 'Gpap99123',9034, 'un9034@uni.gr',
  'under', 'Sofia', 'Koutrouli', 'un9021', 'S1996.!03', 9021, 'un9021@uni.gr',
+ 'under', 'Christina', 'Spyraki', 'un9076', 'Christi90Spy!', 9076, 'un9076@uni.gr',
  'post', 'Marietta', 'Kwstaki', 'un1751', 'Mar1993.89',1751, 'un1751@uni.gr', 
  'post', 'Marios', 'Stergiou', 'un1766', '97Mst2110!',1766, 'un1766@uni.gr');
 
