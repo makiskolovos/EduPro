@@ -11,6 +11,7 @@ name varchar (20) default 'unknown' not null,
 lastname varchar (20) default 'unknown' not null,
 username varchar (20) default 'unknown' not null,
 password varchar(20) default  'unknown' not null,
+phone int(11) default 'unknown' not null,
 AM int(7) not null auto_increment,
 email varchar(20) default 'unknown' not null,
 primary key (AM)
@@ -18,11 +19,11 @@ primary key (AM)
 
 #Εισαγωγή στοιχείων
  insert into students VALUES(
- 'under', 'Giorgos', 'Papadopoulos', 'un9034', 'Gpap99123',9034, 'un9034@uni.gr',
- 'under', 'Sofia', 'Koutrouli', 'un9021', 'S1996.!03', 9021, 'un9021@uni.gr',
- 'under', 'Christina', 'Spyraki', 'un9076', 'Christi90Spy!', 9076, 'un9076@uni.gr',
- 'post', 'Marietta', 'Kwstaki', 'un1751', 'Mar1993.89',1751, 'un1751@uni.gr', 
- 'post', 'Marios', 'Stergiou', 'un1766', '97Mst2110!',1766, 'un1766@uni.gr');
+ 'under', 'Giorgos', 'Papadopoulos', 'un9034', 'Gpap99123',6971234567, 9034, 'un9034@uni.gr',
+ 'under', 'Sofia', 'Koutrouli', 'un9021', 'S1996.!03', 6941234567, 9021, 'un9021@uni.gr',
+ 'under', 'Christina', 'Spyraki', 'un9076', 'Christi90Spy!',6981234567, 9076, 'un9076@uni.gr',
+ 'post', 'Marietta', 'Kwstaki', 'un1751', 'Mar1993.89', 693123567, 1751, 'un1751@uni.gr', 
+ 'post', 'Marios', 'Stergiou', 'un1766', '97Mst2110!', 6901234567, 1766, 'un1766@uni.gr');
 
 #Δημιουργία πίνακα για τα στοιχεία των καθηγητών
 
