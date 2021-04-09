@@ -23,7 +23,8 @@ primary key (AM)
  'under', 'Sofia', 'Koutrouli', 'un9021', 'S1996.!03', 6941234567, 9021, 'un9021@uni.gr',
  'under', 'Christina', 'Spyraki', 'un9076', 'Christi90Spy!',6981234567, 9076, 'un9076@uni.gr',
  'post', 'Marietta', 'Kwstaki', 'un1751', 'Mar1993.89', 693123567, 1751, 'un1751@uni.gr', 
- 'post', 'Marios', 'Stergiou', 'un1766', '97Mst2110!', 6901234567, 1766, 'un1766@uni.gr');
+ 'post', 'Marios', 'Stergiou', 'un1766', '97Mst2110!', 6901234567, 1766, 'un1766@uni.gr'
+ );
 
 #Δημιουργία πίνακα για τα στοιχεία των καθηγητών
 
@@ -41,6 +42,7 @@ VALUES(
 'Kwnstantinos','Charalabidis','kwncha', 'KwnCha!','kwncha@uni.gr',
 'Panagiwta','Mavroudi','panmav','Pan13Mav12@','panmav@uni.gr',
 'Marios','Papadopoulos','mariopap', 'marioS#Pap','mariopap@uni.gr'
+'Katerina','Dimitriadi','katdim', '80Kat!.00dm','katdim@uni.gr'
 );
 #Δημιουργία πίνακα για τα στοιχεία της διεύθυνσης
 
