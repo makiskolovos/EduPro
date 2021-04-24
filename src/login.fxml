@@ -19,7 +19,7 @@
       <Button layoutX="431.0" layoutY="528.0" text="Login" />
       <ImageView fitHeight="657.0" fitWidth="241.0" layoutX="351.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="351.0" AnchorPane.topAnchor="114.0">
          <image>
-            <Image url="@../../../../Desktop/edu_pro.jpg" />
+            <Image url="@edu_pro.jpg" />
          </image>
       </ImageView>
    </children>
