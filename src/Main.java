@@ -12,3 +12,15 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("../main/login.fxml"));
+        
+        primaryStage.setTitle("EDU PRO");
+        primaryStage.setScene(new Scene(root, 991, 674));
+        primaryStage.setResizable(false);
+        primaryStage.show();
+
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
