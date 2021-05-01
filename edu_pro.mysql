@@ -53,3 +53,17 @@ password varchar(20) default 'unknown' not null
 INSERT INTO admin VALUES(
 'university','2610765439uni');
 
+#Δημιουργία πίνακα για τα στοιχεία των μαθημάτων
+create table subject(
+is_subject enum ( 'under',  'post'),
+title varchar (225) default 'unknown' not null,
+primary key (title)
+);
+insert into subject  (is_subject , title) VALUES(
+ 'under', 'Bioinformatics',
+ 'post', 'Linear Algebra',
+ 'under', 'Data Structures ',
+ 'post', 'Computational Geometry',
+ 'under', 'English'
+);
+
