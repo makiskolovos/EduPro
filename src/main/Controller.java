@@ -107,6 +107,24 @@ public class Controller {
 
     }
 
+public void Login2(String professor_username) throws SQLException{
+        Connection conn = new DbConnection().connect();
+        Statement statement2 = conn.createStatement();
+        ResultSet resultSet2 = statement2.executeQuery("select * from professors where username = '"+professor_username+"' ");
+        while(resultSet2.next()){
+            this.pass2 =resultSet2.getString(4);
+        }
+    }
 
+    public void Login3(String admin_username) throws SQLException{
+        Connection conn = new DbConnection().connect();
+        Statement statement3 = conn.createStatement();
+        ResultSet resultSet3 = statement3.executeQuery("select * from admin where username = '"+admin_username+"' ");
+        while(resultSet3.next()){
+            this.pass3 =resultSet3.getString(2);
+        }
+    }
+
+}
 
     
