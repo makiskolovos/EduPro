@@ -104,6 +104,9 @@ public class Controller {
             }
 
     }
+    
+    public void Login2(String professor_username) throws SQLException{
+        Connection conn = new DbConnection().connect();
 
 
 
