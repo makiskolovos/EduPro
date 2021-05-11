@@ -107,6 +107,8 @@ public class Controller {
     
     public void Login2(String professor_username) throws SQLException{
         Connection conn = new DbConnection().connect();
+        Statement statement2 = conn.createStatement();
+        ResultSet resultSet2 = statement2.executeQuery("select * from professors where username = '"+professor_username+"' ");
 
 
 
