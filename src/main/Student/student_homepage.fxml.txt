@@ -67,4 +67,7 @@
                      </graphic>
                   </MenuItem>
                   <MenuItem mnemonicParsing="false" text="My Posts">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="LIST" />
+                     </graphic>
                   </MenuItem>
