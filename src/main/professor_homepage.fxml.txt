@@ -25,8 +25,6 @@
                             </font>
                         </FontAwesomeIconView>
                         <Button layoutX="189.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #3380ca;" text="Button" />
-
-
                     </children>
                 </AnchorPane>
                 <SplitMenuButton fx:id="menu_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="48.0" layoutY="388.0" mnemonicParsing="false" popupSide="RIGHT" style="-fx-background-color: #3380ca;" text="CEID" textAlignment="CENTER" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="220.0">
