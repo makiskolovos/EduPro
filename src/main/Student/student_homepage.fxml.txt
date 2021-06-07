@@ -41,3 +41,5 @@
                            <FontAwesomeIconView glyphName="FOLDER" />
                         </graphic>
                   </MenuItem>
+                  <MenuItem fx:id="grades" mnemonicParsing="false" text="My Grades">
+                  </MenuItem>
