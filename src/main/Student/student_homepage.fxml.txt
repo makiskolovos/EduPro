@@ -52,4 +52,7 @@
                      </graphic>
                   </MenuItem>
                   <MenuItem fx:id="my_statistics" mnemonicParsing="false" text="My Statistics">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="INFO" />
+                     </graphic>
                   </MenuItem>
