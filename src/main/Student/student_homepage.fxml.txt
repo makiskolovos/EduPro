@@ -62,4 +62,7 @@
                      </graphic>
                   </MenuItem>
                   <MenuItem fx:id="forum" mnemonicParsing="false" text="Forum">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="FORUMBEE" />
+                     </graphic>
                   </MenuItem>
