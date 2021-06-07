@@ -24,3 +24,8 @@
                         <Font size="16.0" />
                      </font>
                   </FontAwesomeIconView>
+                  <Button layoutX="189.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #3380ca;" text="Button" />
+                
+
+               </children>
+            </AnchorPane>
