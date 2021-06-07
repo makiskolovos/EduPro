@@ -22,6 +22,7 @@
                         <FontAwesomeIconView fill="#0a0a0a" glyphName="USER_CIRCLE" layoutX="23.0" layoutY="55.0" wrappingWidth="52.428571701049805" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="224.5714282989502">
                             <font>
                                 <Font size="16.0" />
+                                
                             </font>
                         </FontAwesomeIconView>
                         <Button layoutX="189.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #3380ca;" text="Button" />
