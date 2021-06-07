@@ -51,3 +51,5 @@
                         <FontAwesomeIconView glyphName="INBOX" />
                      </graphic>
                   </MenuItem>
+                  <MenuItem fx:id="my_statistics" mnemonicParsing="false" text="My Statistics">
+                  </MenuItem>
