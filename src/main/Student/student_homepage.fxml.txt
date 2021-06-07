@@ -61,3 +61,5 @@
                         <FontAwesomeIconView glyphName="USER" />
                      </graphic>
                   </MenuItem>
+                  <MenuItem fx:id="forum" mnemonicParsing="false" text="Forum">
+                  </MenuItem>
