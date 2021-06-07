@@ -1,2 +1,4 @@
 package students;
 
+public class HomeController {
+}
