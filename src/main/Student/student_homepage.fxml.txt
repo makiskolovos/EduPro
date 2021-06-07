@@ -47,4 +47,7 @@
                         </graphic>
                   </MenuItem>
                   <MenuItem fx:id="my_messages" mnemonicParsing="false" text="My Messages">
+                        <graphic>
+                        <FontAwesomeIconView glyphName="INBOX" />
+                        </graphic>
                   </MenuItem>
