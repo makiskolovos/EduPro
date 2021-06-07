@@ -37,17 +37,17 @@
                      </graphic>
                   </MenuItem>
                   <MenuItem fx:id="subjects" mnemonicParsing="false" text="My Subjects">
-                        <graphic>
-                           <FontAwesomeIconView glyphName="FOLDER" />
-                        </graphic>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="FOLDER" />
+                     </graphic>
                   </MenuItem>
                   <MenuItem fx:id="grades" mnemonicParsing="false" text="My Grades">
-                        <graphic>
+                     <graphic>
                         <FontAwesomeIconView glyphName="BRIEFCASE" />
-                        </graphic>
+                     </graphic>
                   </MenuItem>
                   <MenuItem fx:id="my_messages" mnemonicParsing="false" text="My Messages">
-                        <graphic>
+                     <graphic>
                         <FontAwesomeIconView glyphName="INBOX" />
-                        </graphic>
+                     </graphic>
                   </MenuItem>
