@@ -56,3 +56,5 @@
                         <FontAwesomeIconView glyphName="INFO" />
                      </graphic>
                   </MenuItem>
+                  <MenuItem fx:id="my_profile" mnemonicParsing="false" text="My Profile">
+                  </MenuItem>
