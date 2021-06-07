@@ -37,4 +37,7 @@
                      </graphic>
                   </MenuItem>
                   <MenuItem fx:id="subjects" mnemonicParsing="false" text="My Subjects">
+                        <graphic>
+                           <FontAwesomeIconView glyphName="FOLDER" />
+                        </graphic>
                   </MenuItem>
