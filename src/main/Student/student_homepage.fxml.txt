@@ -36,3 +36,5 @@
                         <FontAwesomeIconView glyphName="BULLHORN" />
                      </graphic>
                   </MenuItem>
+                  <MenuItem fx:id="subjects" mnemonicParsing="false" text="My Subjects">
+                  </MenuItem>
