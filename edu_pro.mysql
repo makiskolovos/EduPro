@@ -69,5 +69,7 @@ insert into subject  (is_subject , title) VALUES(
 
 #Δημιουργία πίνακα για την εισαγωγή βαθμών
 create table grades(
+st_name varchar (20) default 'unknown' not null,
+st_lastname varchar (20) default 'unknown' not null,
 );
 
