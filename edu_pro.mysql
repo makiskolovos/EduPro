@@ -77,3 +77,8 @@ grade int(7) not null,
 primary key (st_AM)
 );
 
+#Εισαγωγή στοιχείων
+
+ insert into grades VALUES(
+
+
