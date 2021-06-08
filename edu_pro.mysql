@@ -71,5 +71,8 @@ insert into subject  (is_subject , title) VALUES(
 create table grades(
 st_name varchar (20) default 'unknown' not null,
 st_lastname varchar (20) default 'unknown' not null,
+st_AM int(7) not null auto_increment,
+subject_title  varchar (225) default 'unknown' not null,
+
 );
 
