@@ -80,5 +80,7 @@ primary key (st_AM)
 #Εισαγωγή στοιχείων
 
  insert into grades VALUES(
+ 'Giorgos', 'Papadopoulos',9034, 'Bioinformatic', 8,
+
 
 
