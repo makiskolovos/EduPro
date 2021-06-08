@@ -82,6 +82,8 @@ primary key (st_AM)
  insert into grades VALUES(
  'Giorgos', 'Papadopoulos',9034, 'Bioinformatic', 8,
  'Sofia', 'Koutrouli', 9021, 'Computational Geometry', 5,
+ 'Marietta', 'Kwstaki',1751, 'Linear Algebra', 3,
+
 
 
 
