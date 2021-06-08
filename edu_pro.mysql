@@ -67,3 +67,7 @@ insert into subject  (is_subject , title) VALUES(
  'under', 'English'
 );
 
+#Δημιουργία πίνακα για την εισαγωγή βαθμών
+create table grades(
+);
+
