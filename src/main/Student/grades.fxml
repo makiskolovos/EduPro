@@ -122,3 +122,21 @@
                         <Font size="16.0" />
                     </font>
                 </FontAwesomeIconView>
+ <Button fx:id="logout" layoutX="866.0" layoutY="79.0" mnemonicParsing="false" onAction="#click_logout" text="Logout">
+                    <graphic>
+                        <FontAwesomeIconView glyphName="SIGN_OUT" />
+                    </graphic>
+                </Button>
+            </children>
+        </AnchorPane>
+        <TableView fx:id="tableGrades" layoutX="316.0" layoutY="176.0" prefHeight="568.0" prefWidth="883.0" AnchorPane.leftAnchor="316.0" AnchorPane.rightAnchor="1.0">
+            <columns>
+                <TableColumn fx:id="student_name_grade" prefWidth="190.0" text="First Name" />
+                <TableColumn fx:id="student_lname_grade" prefWidth="190.0" text="Last Name" />
+                <TableColumn fx:id="subject_title_id" prefWidth="190.0" text="Subject" />
+                <TableColumn fx:id="student_AM" prefWidth="145.0" text="AM" />
+                <TableColumn fx:id="grades_id" prefWidth="281.0" text="Grade" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
