@@ -95,3 +95,35 @@
                     <font>
                         <Font size="16.0" />
                     </font>
+ <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER" />
+                    </graphic>
+                </Button>
+                <ImageView fitHeight="171.0" fitWidth="250.0">
+                    <image>
+                        <Image url="@edu_pro.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="294.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #dddddd;" AnchorPane.bottomAnchor="680.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Text layoutX="389.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Announcements">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Text>
+                <FontAwesomeIconView fill="#0a0a0a" glyphName="USER_CIRCLE" layoutX="866.0" layoutY="59.0" style="-glyph-size: 48;" wrappingWidth="52.428571701049805" AnchorPane.leftAnchor="866.0" AnchorPane.rightAnchor="31.571428298950195">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </FontAwesomeIconView>
+                <Button fx:id="logout" layoutX="866.0" layoutY="79.0" mnemonicParsing="false" onAction="#click_logout" text="Logout">
+                    <graphic>
+                        <FontAwesomeIconView glyphName="SIGN_OUT" />
+                    </graphic>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
