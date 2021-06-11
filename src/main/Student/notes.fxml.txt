@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="800.0" maxWidth="1200.0" minHeight="800.0" minWidth="1200.0" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.students.NotesController">
+    <children>
+        <AnchorPane layoutX="1.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E9E9E9;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="950.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <AnchorPane layoutY="46.0" prefHeight="156.0" prefWidth="136.0" style="-fx-background-color: #E9E9E9;" AnchorPane.bottomAnchor="680.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Text fill="WHITE" layoutX="22.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="87.654296875" AnchorPane.topAnchor="77.0">
+                            <font>
+                                <Font size="16.0" />
+                            </font></Text>
+
+                    </children>
+                </AnchorPane>
+                <Button fx:id="home_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="30.0" layoutY="189.0" mnemonicParsing="false" onMouseClicked="#click_home" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Home" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="189.0">
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="HOME" style="-glyph-size: 20;" />
+                    </graphic>
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Button>
+                <Button fx:id="class_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="30.0" layoutY="235.0" mnemonicParsing="false" onMouseClicked="#click_class" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Class" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="235.0">
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="BOOK" style="-glyph-size: 20;" />
+                    </graphic>
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Button>
+                <Button fx:id="grade_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="30.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#click_grades" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Grades" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="283.0">
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="TROPHY" style="-glyph-size: 20;" />
+                    </graphic>
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Button>
+                <Button fx:id="messages_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="30.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#click_messages" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Messages" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="331.0">
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="COMMENT" style="-glyph-size: 20;" />
+                    </graphic>
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Button>
+                <Button fx:id="notes_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="27.0" layoutY="383.0" mnemonicParsing="false" onMouseClicked="#click_notes" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Notes" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="33.0">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="BRIEFCASE" />
+                    </graphic>
+                </Button>
+                <Button fx:id="announcements_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="27.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#click_announcements" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Announcements" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="33.0">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="BELL" />
+                    </graphic>
+                </Button>
+                <Button fx:id="forum_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="27.0" layoutY="474.0" mnemonicParsing="false" onMouseClicked="#click_forum" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Forum" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="33.0">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="COMMENTS" />
+                    </graphic>
+                </Button>
+                <Button fx:id="guide_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="27.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#click_guide" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Student Guide" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="33.0">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="MAP" />
+                    </graphic>
+                </Button>
+                <Button fx:id="partner_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="27.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#click_partner" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Find Partner" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="33.0">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="SEARCH" />
+                    </graphic>
+                </Button>
+                <Button fx:id="profile_id" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="27.0" layoutY="613.0" mnemonicParsing="false" onMouseClicked="#click_profile" style="-fx-background-color: #B5422B; -fx-cursor: hand;" text="Profile" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="33.0">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER" />
+                    </graphic>
+                </Button>
+                <ImageView fitHeight="171.0" fitWidth="250.0">
+                    <image>
+                        <Image url="@edu_pro.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="294.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #dddddd;" AnchorPane.bottomAnchor="680.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Text layoutX="389.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Text>
+                <FontAwesomeIconView fill="#0a0a0a" glyphName="USER_CIRCLE" layoutX="866.0" layoutY="59.0" style="-glyph-size: 48;" wrappingWidth="52.428571701049805" AnchorPane.leftAnchor="866.0" AnchorPane.rightAnchor="31.571428298950195">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </FontAwesomeIconView>
+                <Button fx:id="logout" layoutX="866.0" layoutY="79.0" mnemonicParsing="false" onAction="#click_logout" text="Logout">
+                    <graphic>
+                        <FontAwesomeIconView glyphName="SIGN_OUT" />
+                    </graphic>
+                </Button>
+            </children>
+        </AnchorPane>
+      <Text layoutX="331.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Write your notes">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="305.0" layoutY="228.0" prefHeight="200.0" prefWidth="200.0" />
+      <Text layoutX="779.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="upload_notes" layoutX="792.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#click_upload_notes" text="Upload your notes">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="UPLOAD" />
+         </graphic>
+      </Button>
+    </children>
+</AnchorPane>
